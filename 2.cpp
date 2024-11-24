@@ -13,7 +13,7 @@ float calRotations(string directions[], int n) {
         }
     }
 
-    float fullRotations = static_cast<float>(totalDegs) / 360;
+    float fullRotations = float(totalDegs) / 360;
     if (fullRotations < 0) {
         fullRotations = -fullRotations;
     }
